@@ -17,7 +17,6 @@ import React from "react";
 import { teamMembers } from "@/data/team";
 import Testimonials from "@/components/homes/home-10/Testimonials";
 import Faq from "@/components/common/Faq";
-import Brands from "@/components/homes/home-1/Brands";
 import { menuItems } from "@/data/menu";
 const dark = false;
 export const metadata = {
@@ -192,10 +191,7 @@ export default function MainAboutPage1() {
               </section>
               {/* End Testimonials Section */}
               {/* Logotypes Section*/}
-              <section className="page-section">
-                <Brands />
-              </section>
-              {/* End Logotypes Section*/}
+
               {/* Divider */}
               <hr className="mt-0 mb-0" />
               {/* End Divider */}

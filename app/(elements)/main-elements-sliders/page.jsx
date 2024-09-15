@@ -15,7 +15,6 @@ import { menuItems } from "@/data/menu";
 import Slider1 from "@/components/elements/Slider1";
 import Slider2 from "@/components/elements/Slider2";
 import Slider3 from "@/components/elements/Slider3";
-import Features from "@/components/homes/home-1/Features";
 
 export const metadata = {
   title:
@@ -88,17 +87,7 @@ export default function ElementPageSlider() {
                 <Slider2 />
               </section>
               {/* End Section */}
-              {/* Features Slider Section */}
-              <section
-                className="page-section bg-dark bg-dark-alpha-70 light-content"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-4.jpg)",
-                }}
-              >
-                {" "}
-                <Features />
-              </section>
+
               <Slider3 />
             </>
           </main>

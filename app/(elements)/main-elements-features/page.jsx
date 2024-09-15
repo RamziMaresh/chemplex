@@ -11,7 +11,6 @@ const ParallaxContainer = dynamic(
 
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
-import Features from "@/components/homes/home-1/Features";
 import { menuItems } from "@/data/menu";
 
 export const metadata = {
@@ -626,15 +625,7 @@ export default function ElementPageFeatures() {
               </section>
               {/* End Features Section */}
               {/* Features Slider Section */}
-              <section
-                className="page-section bg-dark bg-dark-alpha-70 light-content"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-4.jpg)",
-                }}
-              >
-                <Features />
-              </section>
+
               {/* End Features Slider Section */}
               {/* Benefits Section */}
               <section className="page-section">
