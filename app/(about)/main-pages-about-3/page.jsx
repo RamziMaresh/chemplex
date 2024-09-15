@@ -12,7 +12,6 @@ const ParallaxContainer = dynamic(
 
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
-import Features from "@/components/homes/home-1/Features";
 import { teamMembers } from "@/data/team";
 import Split from "@/components/homes/home-1/Split";
 import Image from "next/image";

@@ -17,9 +17,7 @@ import Link from "next/link";
 import Facts from "@/components/homes/home-1/Facts";
 import Testimonials3 from "@/components/homes/home-1/Testimonials3";
 import Faq from "@/components/common/Faq";
-import Features from "@/components/homes/home-1/Features";
-import Brands2 from "@/components/homes/home-1/Brands2";
-import Brands from "@/components/homes/home-1/Brands";
+
 import Benefits from "@/components/homes/home-1/Benefits";
 import { menuItems } from "@/data/menu";
 
@@ -228,11 +226,7 @@ export default function MainAboutPage2() {
             <section className="page-section bg-gray-light-2 overflow-hidden">
               <Testimonials3 />
             </section>
-            <section
-              className={`page-section  ${dark ? " light-content" : ""}`}
-            >
-              {dark ? <Brands2 /> : <Brands />}
-            </section>
+
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
             <section
               className={`page-section  ${
