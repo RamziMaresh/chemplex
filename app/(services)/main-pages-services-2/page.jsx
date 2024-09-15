@@ -14,7 +14,6 @@ import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
 import Image from "next/image";
 import Link from "next/link";
-import Service2 from "@/components/homes/home-1/Service2";
 import { features5 } from "@/data/features";
 
 import { menuItems } from "@/data/menu";
@@ -118,15 +117,7 @@ export default function MainServicesPage2() {
                 </div>
                 {/* End Marquee Text Line */}
               </div>
-              <section
-                className={`page-section  scrollSpysection  ${
-                  dark ? "bg-dark-1 light-content" : ""
-                }`}
-                id="services"
-              >
-                {" "}
-                <Service2 />
-              </section>
+
               <section className="page-section z-index-1">
                 <div className="container position-relative">
                   <div className="row mb-50 mb-sm-50">
