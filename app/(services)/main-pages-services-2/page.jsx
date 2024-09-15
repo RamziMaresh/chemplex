@@ -16,8 +16,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Service2 from "@/components/homes/home-1/Service2";
 import { features5 } from "@/data/features";
-import Brands2 from "@/components/homes/home-1/Brands2";
-import Brands from "@/components/homes/home-1/Brands";
+
 import { menuItems } from "@/data/menu";
 export const metadata = {
   title:
@@ -213,11 +212,7 @@ export default function MainServicesPage2() {
                   </div>
                 </div>
               </section>
-              <section
-                className={`page-section  ${dark ? " light-content" : ""}`}
-              >
-                {dark ? <Brands2 /> : <Brands />}
-              </section>
+
               <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
               <section
                 className={`page-section  ${
