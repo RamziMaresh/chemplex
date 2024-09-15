@@ -181,15 +181,7 @@ export default function MainAboutPage3() {
                 </div>
               </div>
             </section>
-            <section
-              className="page-section bg-dark bg-dark-alpha-70 light-content"
-              style={{
-                backgroundImage:
-                  "url(/assets/images/full-width-images/section-bg-4.jpg)",
-              }}
-            >
-              <Features />
-            </section>
+
             <>
               <section className="page-section" id="team">
                 <div className="container">
